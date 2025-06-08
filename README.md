@@ -1,5 +1,36 @@
-Classified training of the GNB classifier
-which is a function that associates one of the values ​​with each vector in the characteristic space.
-For training there are two sample files one for train and one for test where each sample is a 28x28 square matrix representing an image of an item of clothing.
-I was able to reach a classification level of 91 percent after using the training file, and 90 percent after using the test file.
-all of the function i wrote were a part from a course i did which is called mathematics for machine learning.
+# 🧠 Gaussian Naive Bayes Classifier
+
+This project implements a **Gaussian Naive Bayes** classifier from scratch in Python to classify image data of handwritten digits (labels 0–4).
+
+The model is trained using data loaded from `.pkl` files, and various steps such as visualization, class separation, parameter calculation, and evaluation are included.
+
+## 📂 Files
+
+- `gaussian naive bayes classifier.ipynb`: Main notebook with code and results
+- `TrainData.pkl`: Training dataset 
+- `TestData.pkl`: Testing dataset 
+
+## 🧰 Technologies Used
+
+- Python 3
+- NumPy
+- Matplotlib
+- Pickle (for loading data)
+
+## 🚀 Features
+
+- Loads and preprocesses image data
+- Visualizes examples from each digit class
+- Implements Gaussian Naive Bayes classification manually (no external ML libraries)
+- Calculates mean, variance, and class priors
+- Evaluates the classifier on a test dataset
+- Displays predictions and model accuracy
+
+## 🖼️ Sample Visualization
+
+Example of digit visualization (0–4) from training data using `matplotlib`.
+
+## ▶️ How to Run
+
+1. Make sure you have the required `.pkl` files: `TrainData.pkl` and `TestData.pkl`.
+2. Open the notebook:  
